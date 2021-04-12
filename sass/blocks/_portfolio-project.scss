@@ -8,6 +8,10 @@
     @include min(768) {
       justify-content: flex-start;
     }
+
+    @include max(1199) {
+      justify-content: center;
+    }
   }
 
   &__item {
@@ -24,8 +28,6 @@
         transform: translateY(0);
       }
     }
-    
-    
   }
 
   &__image-wrapper {
