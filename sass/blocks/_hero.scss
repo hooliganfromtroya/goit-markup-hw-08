@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   background-color: var(--c-colordesc);
-  background-image: url(../../images/mobile/header.jpg);
+  background-image: url(../../images/hero/mobile/hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -26,23 +26,23 @@
   }
 
   @include min(768) {
-    background-image: url(../../images/tablet/Header.jpg);
+    background-image: url(../../images/hero/tablet/hero-img.jpg);
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../../images/tablet/Header@2x.jpg);
+    background-image: url(../../images/hero/tablet/hero-img@2x.jpg);
   }
   }
   }
 
   @include min(1200) {
-    background-image: url(../../images/desktop/Img.jpg);
+    background-image: url(../../images/hero/desktop/hero-img.jpg);
     @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../../images/desktop/Img@2x.jpg);
+    background-image: url(../../images/hero/desktop/hero-img@2x.jpg);
   }
   }
   }
