@@ -1,0 +1,24 @@
+.logo {
+  $this: &;
+  $light: #{$this}--light;
+
+  &__first {
+    color: var(--c-blue);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--font-raleway);
+    line-height: 1.17;
+  }
+
+  &__last {
+    color: var(--c-black);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-raleway);
+    line-height: 1.38;
+
+    #{$light} & {
+      color: var(--c-white);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+// Utils
+@import "./utils/variables";
+@import "./utils/mixins";
+// Base styles
+@import "./base/common";
+@import "./base/section";
+@import "./base/container";
+// Components
+@import "./components/social-links";
+@import "./components/title";
+@import "./components/backdrop";
+@import "./components/logo";
+@import "./components/modal-close-btn";
+// Blocks
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/about";
+@import "./blocks/working";
+@import "./blocks/team";
+@import "./blocks/partners";
+@import "./blocks/footer";
+@import "./blocks/modal";
+@import "./blocks/portfolio-project";
+@import "./blocks/portfolio-filter";

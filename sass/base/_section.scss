@@ -1,0 +1,7 @@
+.section {
+  padding: var(--section-padding-mobile);
+
+  @include min(1024) {
+    padding: var(--section-padding);
+  }
+}

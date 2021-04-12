@@ -1,0 +1,50 @@
+.social-links {
+  $this: &;
+  $dark: #{$this}--dark;
+  // Local variables
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    margin-right: 10px;
+    margin-left: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--c-gray);
+    width: 44px;
+    height: 44px;
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    svg {
+      width: 20px;
+      height: 20px;
+      color: inherit;
+    }
+
+    &:hover {
+      background-color: var(--c-light-blue);
+      color: var(--c-white);
+    }
+
+    #{$dark} & {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--c-white);
+
+      &:hover {
+        background-color: var(--c-light-blue);
+      }
+    }
+  }
+}

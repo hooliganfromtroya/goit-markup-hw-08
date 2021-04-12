@@ -1,0 +1,22 @@
+.modal__close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 10 10;
+
+  &:hover {
+    color: var(--c-light-blue);
+  }
+
+  svg {
+    color: inherit;
+    width: 11px;
+    height: 11px;
+    fill: none;
+  }
+}
